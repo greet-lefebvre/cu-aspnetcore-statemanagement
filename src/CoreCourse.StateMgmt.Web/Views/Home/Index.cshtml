@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>State Management</h2>
+        <div>
+            <p>This applications helps you understand the basics of State Management in ASP.NET Core.</p>
+            <p>Click on one of the links to navigate to a specific view.</p>
+            <p>For a clear understanding, you will need access to the accompanying <b>ASP.NET Core</b> course book</p>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="ClientState">Simple States</a>&nbsp;&raquo;</h2>
+                    <ul>
+                        <li>Using querystring</li>
+                        <li>Using hidden form fields</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="Cookies">Cookies</a>&nbsp;&raquo;</h2>
+                    <ul>
+                        <li>Store cookie data</li>
+                        <li>Retrieve cookie data</li>
+                        <li>Removing cookies</li>
+                        <li>Cookie persistence</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="WebStorage">Web Storage</a>&nbsp;&raquo;</h2>
+                    <ul>
+                        <li>Accessing HTML5 storage</li>
+                        <li>SessionStorage</li>
+                        <li>LocalStorage</li>
+                    </ul>
+                    <br />
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="SessionState">Session State</a>&nbsp;&raquo;</h2>
+                    <ul>
+                        <li>Using Session State</li>
+                        <li>Session persistence</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="Cache">Cache</a>&nbsp;&raquo;</h2>
+                    <ul>
+                        <li>Using Memory Cache</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="TempData">TempData</a>&nbsp;&raquo;</h2>
+                    <ul>
+                        <li>Using TempData</li>
+                        <li>TempData persistence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
